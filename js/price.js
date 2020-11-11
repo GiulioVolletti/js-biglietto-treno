@@ -38,3 +38,8 @@ if (anni < 18 ) {
 
 // Sulla base di queste informazioni dovrà
 // calcolare il prezzo totale del viaggio.
+
+// data
+var dataOdierna = new Date()
+document.getElementById("data").innerHTML= dataOdierna ;
+console.log(data);
