@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(https://www.thetrainline.com/cmsmedia/cms/9533/trenitalia_hero_2x.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.biglietto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  width: 50%;
+  background-color: white;
+  border-radius: 5%;
+  font-weight: bold;
+  font-size: 30px;
+}
